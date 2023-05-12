@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC16A1662A0EB5880053FED7 /* VegetableDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16A1652A0EB5880053FED7 /* VegetableDetailView.swift */; };
+		EC5855AC2A0E734100CDBEF5 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5855AB2A0E734100CDBEF5 /* OnBoardingView.swift */; };
+		EC5855AF2A0E757A00CDBEF5 /* VegetableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5855AE2A0E757A00CDBEF5 /* VegetableModel.swift */; };
+		EC5855B22A0E767E00CDBEF5 /* VegetableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5855B12A0E767E00CDBEF5 /* VegetableData.swift */; };
+		EC5855B42A0E8A1100CDBEF5 /* VegetableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5855B32A0E8A1100CDBEF5 /* VegetableRowView.swift */; };
 		ECCAF7572A0E183100FA84E5 /* ThirdAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAF7562A0E183100FA84E5 /* ThirdAppApp.swift */; };
 		ECCAF7592A0E183100FA84E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAF7582A0E183100FA84E5 /* ContentView.swift */; };
 		ECCAF75B2A0E183300FA84E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCAF75A2A0E183300FA84E5 /* Assets.xcassets */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC16A1652A0EB5880053FED7 /* VegetableDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDetailView.swift; sourceTree = "<group>"; };
+		EC5855AB2A0E734100CDBEF5 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		EC5855AE2A0E757A00CDBEF5 /* VegetableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableModel.swift; sourceTree = "<group>"; };
+		EC5855B12A0E767E00CDBEF5 /* VegetableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableData.swift; sourceTree = "<group>"; };
+		EC5855B32A0E8A1100CDBEF5 /* VegetableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableRowView.swift; sourceTree = "<group>"; };
 		ECCAF7532A0E183100FA84E5 /* ThirdApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCAF7562A0E183100FA84E5 /* ThirdAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAppApp.swift; sourceTree = "<group>"; };
 		ECCAF7582A0E183100FA84E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +46,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC5855AD2A0E755E00CDBEF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC5855AE2A0E757A00CDBEF5 /* VegetableModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC5855B02A0E766E00CDBEF5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EC5855B12A0E767E00CDBEF5 /* VegetableData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		ECCAF74A2A0E183100FA84E5 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +81,8 @@
 		ECCAF7552A0E183100FA84E5 /* ThirdApp */ = {
 			isa = PBXGroup;
 			children = (
+				EC5855B02A0E766E00CDBEF5 /* Data */,
+				EC5855AD2A0E755E00CDBEF5 /* Model */,
 				ECCAF7652A0E22A300FA84E5 /* View */,
 				ECCAF7642A0E229100FA84E5 /* App */,
 				ECCAF75A2A0E183300FA84E5 /* Assets.xcassets */,
@@ -76,6 +104,7 @@
 			children = (
 				ECCAF7562A0E183100FA84E5 /* ThirdAppApp.swift */,
 				ECCAF7582A0E183100FA84E5 /* ContentView.swift */,
+				EC16A1652A0EB5880053FED7 /* VegetableDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -85,6 +114,8 @@
 			children = (
 				ECCAF7662A0E22E400FA84E5 /* VegetableCardView.swift */,
 				ECCAF7682A0E2AE100FA84E5 /* StartButtonView.swift */,
+				EC5855AB2A0E734100CDBEF5 /* OnBoardingView.swift */,
+				EC5855B32A0E8A1100CDBEF5 /* VegetableRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +193,11 @@
 				ECCAF7592A0E183100FA84E5 /* ContentView.swift in Sources */,
 				ECCAF7692A0E2AE100FA84E5 /* StartButtonView.swift in Sources */,
 				ECCAF7672A0E22E400FA84E5 /* VegetableCardView.swift in Sources */,
+				EC5855B42A0E8A1100CDBEF5 /* VegetableRowView.swift in Sources */,
+				EC5855AF2A0E757A00CDBEF5 /* VegetableModel.swift in Sources */,
+				EC5855B22A0E767E00CDBEF5 /* VegetableData.swift in Sources */,
+				EC5855AC2A0E734100CDBEF5 /* OnBoardingView.swift in Sources */,
+				EC16A1662A0EB5880053FED7 /* VegetableDetailView.swift in Sources */,
 				ECCAF7572A0E183100FA84E5 /* ThirdAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
