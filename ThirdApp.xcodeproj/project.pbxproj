@@ -12,6 +12,9 @@
 		EC5855AF2A0E757A00CDBEF5 /* VegetableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5855AE2A0E757A00CDBEF5 /* VegetableModel.swift */; };
 		EC5855B22A0E767E00CDBEF5 /* VegetableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5855B12A0E767E00CDBEF5 /* VegetableData.swift */; };
 		EC5855B42A0E8A1100CDBEF5 /* VegetableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5855B32A0E8A1100CDBEF5 /* VegetableRowView.swift */; };
+		EC614F5D2A15405300B658C3 /* VegetableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC614F5C2A15405300B658C3 /* VegetableHeaderView.swift */; };
+		ECB6D52E2A1660D600913336 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6D52D2A1660D600913336 /* SourceLinkView.swift */; };
+		ECB6D5302A16642300913336 /* VegtableClassficationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6D52F2A16642300913336 /* VegtableClassficationView.swift */; };
 		ECCAF7572A0E183100FA84E5 /* ThirdAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAF7562A0E183100FA84E5 /* ThirdAppApp.swift */; };
 		ECCAF7592A0E183100FA84E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAF7582A0E183100FA84E5 /* ContentView.swift */; };
 		ECCAF75B2A0E183300FA84E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCAF75A2A0E183300FA84E5 /* Assets.xcassets */; };
@@ -26,6 +29,9 @@
 		EC5855AE2A0E757A00CDBEF5 /* VegetableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableModel.swift; sourceTree = "<group>"; };
 		EC5855B12A0E767E00CDBEF5 /* VegetableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableData.swift; sourceTree = "<group>"; };
 		EC5855B32A0E8A1100CDBEF5 /* VegetableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableRowView.swift; sourceTree = "<group>"; };
+		EC614F5C2A15405300B658C3 /* VegetableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableHeaderView.swift; sourceTree = "<group>"; };
+		ECB6D52D2A1660D600913336 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		ECB6D52F2A16642300913336 /* VegtableClassficationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegtableClassficationView.swift; sourceTree = "<group>"; };
 		ECCAF7532A0E183100FA84E5 /* ThirdApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCAF7562A0E183100FA84E5 /* ThirdAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAppApp.swift; sourceTree = "<group>"; };
 		ECCAF7582A0E183100FA84E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +122,9 @@
 				ECCAF7682A0E2AE100FA84E5 /* StartButtonView.swift */,
 				EC5855AB2A0E734100CDBEF5 /* OnBoardingView.swift */,
 				EC5855B32A0E8A1100CDBEF5 /* VegetableRowView.swift */,
+				EC614F5C2A15405300B658C3 /* VegetableHeaderView.swift */,
+				ECB6D52D2A1660D600913336 /* SourceLinkView.swift */,
+				ECB6D52F2A16642300913336 /* VegtableClassficationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,12 +200,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECCAF7592A0E183100FA84E5 /* ContentView.swift in Sources */,
+				ECB6D52E2A1660D600913336 /* SourceLinkView.swift in Sources */,
 				ECCAF7692A0E2AE100FA84E5 /* StartButtonView.swift in Sources */,
 				ECCAF7672A0E22E400FA84E5 /* VegetableCardView.swift in Sources */,
 				EC5855B42A0E8A1100CDBEF5 /* VegetableRowView.swift in Sources */,
 				EC5855AF2A0E757A00CDBEF5 /* VegetableModel.swift in Sources */,
+				ECB6D5302A16642300913336 /* VegtableClassficationView.swift in Sources */,
 				EC5855B22A0E767E00CDBEF5 /* VegetableData.swift in Sources */,
 				EC5855AC2A0E734100CDBEF5 /* OnBoardingView.swift in Sources */,
+				EC614F5D2A15405300B658C3 /* VegetableHeaderView.swift in Sources */,
 				EC16A1662A0EB5880053FED7 /* VegetableDetailView.swift in Sources */,
 				ECCAF7572A0E183100FA84E5 /* ThirdAppApp.swift in Sources */,
 			);
